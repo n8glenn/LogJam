@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LogJam_Example' do
+  pod 'LogJam', :path => '../'
+
+  target 'LogJam_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
