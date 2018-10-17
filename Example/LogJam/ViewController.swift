@@ -7,15 +7,27 @@
 //
 
 import UIKit
+import LogJam
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a nib.f
+        
+        LogJam.shared.active = true
+        LogJam.shared.level = .Information
+        LogJam.shared.currentDomain = "ViewController.viewDidLoad"
+        LogJam.shared.addDomain(domain: "ViewController.viewDidLoad")
+        
+        LogJam.shared.log(message: "hello there LogJam!!!")
+        LogJam.shared.log(level: .Information, message: "Information Message")
+        LogJam.shared.log(level: .Debug, message: "Debug Message")
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }

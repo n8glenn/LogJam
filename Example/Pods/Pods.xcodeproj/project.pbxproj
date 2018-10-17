@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ECF09B3F9596F9C18446C86BA6A1F0C /* Pods-LogJam_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 671CA907A87536BEC747E270B3C759D7 /* Pods-LogJam_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19CDB1F2EBCC07CD73036771898C6DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		1AA7EBD3588E2AF34DE08F45E96CC938 /* LogJam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 971CF28E0FF27CAF7ADB67ED299CC0B8 /* LogJam-dummy.m */; };
+		2CA4F58BD5DB789FD6534DB621D11135 /* Pods-LogJam_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC52D0FA6CE33F54C9200718A41EF67 /* Pods-LogJam_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64A4AF28648244339671C97F3E4D101D /* LogJam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F31C0D0E4DF3D786DAAA7537E8F2529 /* LogJam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		740FC8F1196A0F1ABC41F6C48F7CB724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		865D54DDD8282C60C2D6D5D86AD2A8BE /* Pods-LogJam_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC186F86A0C8840BA42AAA8A6F747BF4 /* Pods-LogJam_Example-dummy.m */; };
+		904403872177A9F5004AB63D /* LogJam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904403862177A9F5004AB63D /* LogJam.swift */; };
+		C1A552D2E60A74FE1FE98F4B3E43D26F /* Pods-LogJam_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAEA0EC1BA92ED0A4C418B792239D74 /* Pods-LogJam_Tests-dummy.m */; };
+		CDD87A017E68DFC33CACA550DEB9C8D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC94CEE8896967544E11FD2FE0E5ED94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD56A610B6D6B296D61EAF75033150EE;
+			remoteInfo = "Pods-LogJam_Example";
+		};
+		E7F3AA652826552A221BCFC9C5191D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EA7FF893A65421128D6CDFD74E29330;
+			remoteInfo = LogJam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B2526C73D8ED18052B33AB8CAAF9EA2 /* Pods-LogJam_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LogJam_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		12102D7F4F43683279AC25B6DA7834FF /* Pods-LogJam_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LogJam_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E5966DC238F734C7D248FC8FA954B9D /* Pods-LogJam_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LogJam_Example.modulemap"; sourceTree = "<group>"; };
+		1F31C0D0E4DF3D786DAAA7537E8F2529 /* LogJam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LogJam-umbrella.h"; sourceTree = "<group>"; };
+		2499496B2914EA8453EAF5549227C704 /* Pods_LogJam_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogJam_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E8B083B4D317E642D79D5FD37D2DF3 /* LogJam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LogJam.modulemap; sourceTree = "<group>"; };
+		3CB9E2964530ACA99AADA0D7024CBC17 /* Pods-LogJam_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LogJam_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		453696F9D3FCFA036B1496A94CD7E029 /* Pods-LogJam_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LogJam_Tests-resources.sh"; sourceTree = "<group>"; };
+		45EF6CB5B14E08427666CDDF904CA22C /* LogJam.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LogJam.xcconfig; sourceTree = "<group>"; };
+		4D8B8BCD718ECBD5A6D32DA6A6FF8A90 /* LogJam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogJam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB3A5AAF8E9E6EDB57CE5502FFD1DD3 /* Pods-LogJam_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LogJam_Example-frameworks.sh"; sourceTree = "<group>"; };
+		539B7AD8D39A8A66D1F90032C5BEC1CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58DDB36261EB61CAC9C9B0087ACC058E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		661734D628DFB5B6ABC59199D3E86CD7 /* LogJam.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LogJam.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		671CA907A87536BEC747E270B3C759D7 /* Pods-LogJam_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LogJam_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6CC3A61F80E90D909D13CAE52D2D5341 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7294E165CD0F4CF09E592139C0C6E33C /* Pods-LogJam_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LogJam_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7348EE3EB26513FD468975A13664E04F /* Pods-LogJam_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LogJam_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7AB0213731F9A9A439B04616E1CA9D9E /* LogJam-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LogJam-prefix.pch"; sourceTree = "<group>"; };
+		8315F70D422F2DF4EA40DDFD7AD8543D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904403862177A9F5004AB63D /* LogJam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogJam.swift; path = LogJam/Classes/LogJam.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		971CF28E0FF27CAF7ADB67ED299CC0B8 /* LogJam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LogJam-dummy.m"; sourceTree = "<group>"; };
+		9CD0E1BCBEFDD76A315A07FA2DA0FA47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9DEAE8E3C28E585A4A9A4DD789AFF4E7 /* Pods-LogJam_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LogJam_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A3462E0B140466B7908FBE26036CCB36 /* Pods-LogJam_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LogJam_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A763E1A4A8566E9C82BBD39CE27E377B /* Pods-LogJam_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LogJam_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B03BB64DEEDC4116B41EA39FB879F62C /* Pods-LogJam_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LogJam_Tests.modulemap"; sourceTree = "<group>"; };
+		C3A8833FDF8CA1736DAA18BCAE79E350 /* Pods_LogJam_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogJam_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C619C26EA138BB3B0B43C0D5F6DB9F90 /* Pods-LogJam_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LogJam_Example-resources.sh"; sourceTree = "<group>"; };
+		CC186F86A0C8840BA42AAA8A6F747BF4 /* Pods-LogJam_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LogJam_Example-dummy.m"; sourceTree = "<group>"; };
+		CDB41540EBCBD21009CEA0F47A3AD056 /* Pods-LogJam_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LogJam_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CEAEA0EC1BA92ED0A4C418B792239D74 /* Pods-LogJam_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LogJam_Tests-dummy.m"; sourceTree = "<group>"; };
+		FDC52D0FA6CE33F54C9200718A41EF67 /* Pods-LogJam_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LogJam_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		419AD34F4B5BEB4D732FE52DAABA6B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740FC8F1196A0F1ABC41F6C48F7CB724 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F08081DE28D60A500C3942890296194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD87A017E68DFC33CACA550DEB9C8D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15ACEF40FD785F67D1912077EC09C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CDB1F2EBCC07CD73036771898C6DE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E3EE65289E0C123DBB31EF8FA4B283C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D8B8BCD718ECBD5A6D32DA6A6FF8A90 /* LogJam.framework */,
+				C3A8833FDF8CA1736DAA18BCAE79E350 /* Pods_LogJam_Example.framework */,
+				2499496B2914EA8453EAF5549227C704 /* Pods_LogJam_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40A2D74367DCCCC64470BC0C166F627C /* Pods-LogJam_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8315F70D422F2DF4EA40DDFD7AD8543D /* Info.plist */,
+				B03BB64DEEDC4116B41EA39FB879F62C /* Pods-LogJam_Tests.modulemap */,
+				12102D7F4F43683279AC25B6DA7834FF /* Pods-LogJam_Tests-acknowledgements.markdown */,
+				7294E165CD0F4CF09E592139C0C6E33C /* Pods-LogJam_Tests-acknowledgements.plist */,
+				CEAEA0EC1BA92ED0A4C418B792239D74 /* Pods-LogJam_Tests-dummy.m */,
+				7348EE3EB26513FD468975A13664E04F /* Pods-LogJam_Tests-frameworks.sh */,
+				453696F9D3FCFA036B1496A94CD7E029 /* Pods-LogJam_Tests-resources.sh */,
+				671CA907A87536BEC747E270B3C759D7 /* Pods-LogJam_Tests-umbrella.h */,
+				A763E1A4A8566E9C82BBD39CE27E377B /* Pods-LogJam_Tests.debug.xcconfig */,
+				0B2526C73D8ED18052B33AB8CAAF9EA2 /* Pods-LogJam_Tests.release.xcconfig */,
+			);
+			name = "Pods-LogJam_Tests";
+			path = "Target Support Files/Pods-LogJam_Tests";
+			sourceTree = "<group>";
+		};
+		4724EF7E9836540BDC3AD0551F4405D5 /* LogJam */ = {
+			isa = PBXGroup;
+			children = (
+				7891813BE90B4F458EAE67A9B3A3B19D /* Pod */,
+				8288BEF9C64D3FAE8AE2D70D190D0919 /* Support Files */,
+			);
+			name = LogJam;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6261880288406ED6A849CC5E5004458F /* Pods-LogJam_Example */ = {
+			isa = PBXGroup;
+			children = (
+				58DDB36261EB61CAC9C9B0087ACC058E /* Info.plist */,
+				1E5966DC238F734C7D248FC8FA954B9D /* Pods-LogJam_Example.modulemap */,
+				3CB9E2964530ACA99AADA0D7024CBC17 /* Pods-LogJam_Example-acknowledgements.markdown */,
+				A3462E0B140466B7908FBE26036CCB36 /* Pods-LogJam_Example-acknowledgements.plist */,
+				CC186F86A0C8840BA42AAA8A6F747BF4 /* Pods-LogJam_Example-dummy.m */,
+				4EB3A5AAF8E9E6EDB57CE5502FFD1DD3 /* Pods-LogJam_Example-frameworks.sh */,
+				C619C26EA138BB3B0B43C0D5F6DB9F90 /* Pods-LogJam_Example-resources.sh */,
+				FDC52D0FA6CE33F54C9200718A41EF67 /* Pods-LogJam_Example-umbrella.h */,
+				9DEAE8E3C28E585A4A9A4DD789AFF4E7 /* Pods-LogJam_Example.debug.xcconfig */,
+				CDB41540EBCBD21009CEA0F47A3AD056 /* Pods-LogJam_Example.release.xcconfig */,
+			);
+			name = "Pods-LogJam_Example";
+			path = "Target Support Files/Pods-LogJam_Example";
+			sourceTree = "<group>";
+		};
+		7891813BE90B4F458EAE67A9B3A3B19D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				904403862177A9F5004AB63D /* LogJam.swift */,
+				9CD0E1BCBEFDD76A315A07FA2DA0FA47 /* LICENSE */,
+				661734D628DFB5B6ABC59199D3E86CD7 /* LogJam.podspec */,
+				6CC3A61F80E90D909D13CAE52D2D5341 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A617ECF315EE0FE75BC3C1E6460A3CF1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3E3EE65289E0C123DBB31EF8FA4B283C /* Products */,
+				D3B6D2605695ED8F1DA56F9350572C3F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8288BEF9C64D3FAE8AE2D70D190D0919 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				539B7AD8D39A8A66D1F90032C5BEC1CB /* Info.plist */,
+				38E8B083B4D317E642D79D5FD37D2DF3 /* LogJam.modulemap */,
+				45EF6CB5B14E08427666CDDF904CA22C /* LogJam.xcconfig */,
+				971CF28E0FF27CAF7ADB67ED299CC0B8 /* LogJam-dummy.m */,
+				7AB0213731F9A9A439B04616E1CA9D9E /* LogJam-prefix.pch */,
+				1F31C0D0E4DF3D786DAAA7537E8F2529 /* LogJam-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LogJam";
+			sourceTree = "<group>";
+		};
+		A617ECF315EE0FE75BC3C1E6460A3CF1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4724EF7E9836540BDC3AD0551F4405D5 /* LogJam */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3B6D2605695ED8F1DA56F9350572C3F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6261880288406ED6A849CC5E5004458F /* Pods-LogJam_Example */,
+				40A2D74367DCCCC64470BC0C166F627C /* Pods-LogJam_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11A6EB8714AE9DE36A00E5B58E32277C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A4AF28648244339671C97F3E4D101D /* LogJam-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D50D5768CBBFBA6A89729F66B3678B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECF09B3F9596F9C18446C86BA6A1F0C /* Pods-LogJam_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5CB3884255939C7F3D15BF45360602 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA4F58BD5DB789FD6534DB621D11135 /* Pods-LogJam_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8EA7FF893A65421128D6CDFD74E29330 /* LogJam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B9412FC9F22D037AFD3E6001957BA3 /* Build configuration list for PBXNativeTarget "LogJam" */;
+			buildPhases = (
+				E5732955BCA80FCD303B59979AAA6B23 /* Sources */,
+				F15ACEF40FD785F67D1912077EC09C48 /* Frameworks */,
+				11A6EB8714AE9DE36A00E5B58E32277C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogJam;
+			productName = LogJam;
+			productReference = 4D8B8BCD718ECBD5A6D32DA6A6FF8A90 /* LogJam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD56A610B6D6B296D61EAF75033150EE /* Pods-LogJam_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24BF1AE7D4D00468B143533D2D03B63 /* Build configuration list for PBXNativeTarget "Pods-LogJam_Example" */;
+			buildPhases = (
+				DDFA55790C5A25E8C94AE1072D852F4E /* Sources */,
+				8F08081DE28D60A500C3942890296194 /* Frameworks */,
+				8C5CB3884255939C7F3D15BF45360602 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				493803BB6BE61DAC9AC9B4F5820C2E5B /* PBXTargetDependency */,
+			);
+			name = "Pods-LogJam_Example";
+			productName = "Pods-LogJam_Example";
+			productReference = C3A8833FDF8CA1736DAA18BCAE79E350 /* Pods_LogJam_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C71BC329E9936B6A8390297EC98A93BB /* Pods-LogJam_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8553DD0E833B2CA3EC2B2035BDEFD2AD /* Build configuration list for PBXNativeTarget "Pods-LogJam_Tests" */;
+			buildPhases = (
+				502DCA6641D05E485BD6662564B7B0CB /* Sources */,
+				419AD34F4B5BEB4D732FE52DAABA6B23 /* Frameworks */,
+				5D50D5768CBBFBA6A89729F66B3678B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD104586630A459303D37CE57AA6585 /* PBXTargetDependency */,
+			);
+			name = "Pods-LogJam_Tests";
+			productName = "Pods-LogJam_Tests";
+			productReference = 2499496B2914EA8453EAF5549227C704 /* Pods_LogJam_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					8EA7FF893A65421128D6CDFD74E29330 = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3E3EE65289E0C123DBB31EF8FA4B283C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EA7FF893A65421128D6CDFD74E29330 /* LogJam */,
+				BD56A610B6D6B296D61EAF75033150EE /* Pods-LogJam_Example */,
+				C71BC329E9936B6A8390297EC98A93BB /* Pods-LogJam_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		502DCA6641D05E485BD6662564B7B0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A552D2E60A74FE1FE98F4B3E43D26F /* Pods-LogJam_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFA55790C5A25E8C94AE1072D852F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865D54DDD8282C60C2D6D5D86AD2A8BE /* Pods-LogJam_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5732955BCA80FCD303B59979AAA6B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA7EBD3588E2AF34DE08F45E96CC938 /* LogJam-dummy.m in Sources */,
+				904403872177A9F5004AB63D /* LogJam.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		493803BB6BE61DAC9AC9B4F5820C2E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LogJam;
+			target = 8EA7FF893A65421128D6CDFD74E29330 /* LogJam */;
+			targetProxy = E7F3AA652826552A221BCFC9C5191D9C /* PBXContainerItemProxy */;
+		};
+		ACD104586630A459303D37CE57AA6585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LogJam_Example";
+			target = BD56A610B6D6B296D61EAF75033150EE /* Pods-LogJam_Example */;
+			targetProxy = CC94CEE8896967544E11FD2FE0E5ED94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00C867ED4DFC4123C735EC59D163B09B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EF6CB5B14E08427666CDDF904CA22C /* LogJam.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LogJam/LogJam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LogJam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LogJam/LogJam.modulemap";
+				PRODUCT_MODULE_NAME = LogJam;
+				PRODUCT_NAME = LogJam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		254C5B44CEBEE7AF4661B1818293D7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2526C73D8ED18052B33AB8CAAF9EA2 /* Pods-LogJam_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LogJam_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LogJam_Tests/Pods-LogJam_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57F7A317AFB743E3AA5052572F52B6C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DEAE8E3C28E585A4A9A4DD789AFF4E7 /* Pods-LogJam_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LogJam_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LogJam_Example/Pods-LogJam_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59593BBAC747115AC7A1A22D43A0A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EF6CB5B14E08427666CDDF904CA22C /* LogJam.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LogJam/LogJam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LogJam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LogJam/LogJam.modulemap";
+				PRODUCT_MODULE_NAME = LogJam;
+				PRODUCT_NAME = LogJam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8E46CD77E42CC268348596D7756808D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A763E1A4A8566E9C82BBD39CE27E377B /* Pods-LogJam_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LogJam_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LogJam_Tests/Pods-LogJam_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABA559F300FD0C7C46FA8F3FA1893EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB41540EBCBD21009CEA0F47A3AD056 /* Pods-LogJam_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LogJam_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LogJam_Example/Pods-LogJam_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B9412FC9F22D037AFD3E6001957BA3 /* Build configuration list for PBXNativeTarget "LogJam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59593BBAC747115AC7A1A22D43A0A439 /* Debug */,
+				00C867ED4DFC4123C735EC59D163B09B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8553DD0E833B2CA3EC2B2035BDEFD2AD /* Build configuration list for PBXNativeTarget "Pods-LogJam_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E46CD77E42CC268348596D7756808D1 /* Debug */,
+				254C5B44CEBEE7AF4661B1818293D7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24BF1AE7D4D00468B143533D2D03B63 /* Build configuration list for PBXNativeTarget "Pods-LogJam_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F7A317AFB743E3AA5052572F52B6C4 /* Debug */,
+				ABA559F300FD0C7C46FA8F3FA1893EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

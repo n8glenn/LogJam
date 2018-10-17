@@ -1,0 +1,16 @@
+PODS:
+  - LogJam (0.1.0)
+
+DEPENDENCIES:
+  - LogJam (from `../`)
+
+EXTERNAL SOURCES:
+  LogJam:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LogJam: 854dd9d8a6227668f1af05eb34ca7c39dff89831
+
+PODFILE CHECKSUM: f80693d23b7ffdeaa33fa2161a96ad7db04f9d54
+
+COCOAPODS: 1.5.3

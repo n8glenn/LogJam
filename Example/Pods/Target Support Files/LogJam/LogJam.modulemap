@@ -1,0 +1,6 @@
+framework module LogJam {
+  umbrella header "LogJam-umbrella.h"
+
+  export *
+  module * { export * }
+}

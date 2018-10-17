@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LogJam'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LogJam.'
+  s.summary          = 'LogJam is a simple yet powerful logging class which allows you to quickly and easily log the events in your app in a dynamic way, by defining log statements ahead of time and enabling the ones you need on the fly as you debug.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LogJam/Classes/**/*'
+  s.source_files = 'LogJam/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'LogJam' => ['LogJam/Assets/*.png']

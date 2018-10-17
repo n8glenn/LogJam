@@ -1,0 +1,22 @@
+{
+  "name": "LogJam",
+  "version": "0.1.0",
+  "summary": "A short description of LogJam.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/n8glenn/LogJam",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "n8glenn": "n8glenn@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/n8glenn/LogJam.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LogJam/Classes/**/*"
+}
