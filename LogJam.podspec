@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LogJam'
   s.version          = '0.1.0'
-  s.summary          = 'LogJam is a simple yet powerful logging class which allows you to quickly and easily log the events in your app in a dynamic way, by defining log statements ahead of time and enabling the ones you need on the fly as you debug.'
+  s.summary          = 'LogJam is a simple yet powerful logging class which allows you to quickly and easily log the events in your app in a dynamic way.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
