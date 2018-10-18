@@ -11,6 +11,7 @@ import LogJam
 
 class ViewController: UIViewController
 {
+    let domain:String = "ViewController"
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -18,8 +19,8 @@ class ViewController: UIViewController
         
         LogJam.shared.active = true
         LogJam.shared.level = .Information
-        LogJam.shared.currentDomain = "ViewController.viewDidLoad"
-        LogJam.shared.addDomain(domain: "ViewController.viewDidLoad")
+        LogJam.shared.currentDomain = self.domain + ".viewDidLoad"
+        LogJam.shared.addDomain(domain: self.domain + ".viewDidLoad")
         
         LogJam.shared.log(message: "hello there LogJam!!!")
         LogJam.shared.log(level: .Information, message: "Information Message")
